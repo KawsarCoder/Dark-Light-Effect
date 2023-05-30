@@ -1,0 +1,62 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* heading style  */
+header {
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* toggle button style  */
+.toggle-button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: lightsteelblue;
+  padding: 0px 20px;
+  font-weight: bold;
+  outline: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.toggle-button.dark-mode {
+  background-color: white;
+  color: lightseagreen;
+}
+
+.main {
+  padding: 20px;
+}
+
+h2,
+p {
+  color: #000000;
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.dark-mode header {
+  background-color: #333333;
+}
+
+.dark-mode h2,
+.dark-mode p {
+  color: #ffffff;
+}
